@@ -1,0 +1,442 @@
+/*Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 12rem;
+    background-color: black;
+
+}
+
+.headerLogo{
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 10rem;
+    position: absolute;
+}
+
+
+.headerList{
+    text-align: end;
+    margin-right: 1rem;
+}
+
+.headerItem{
+    display: inline-block;
+    margin: 3rem 0.5rem;
+    padding-top: 2rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: font-size 0.5s;
+}
+
+.headerItem:hover{
+    font-size: 1.1rem;
+}
+
+.headerLink{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/*Main Index*/
+
+.mainIndex{
+    width: 100%;
+    padding: 15rem 0rem 0rem 0rem;
+    background-image: url("../img/Hero_home_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainContainer{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.mainText{
+    padding: 0 10rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.multimediaContainer{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.multimedia{
+    padding-left: 3rem;
+    width: 560px;
+    height: 325px;
+}
+
+
+/*Galeria*/
+
+.mainGal{
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    background-color: #bcbdd8;
+}
+
+#grilla{
+    margin: 0 2rem;
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+} 
+    
+.galItem{
+    width: 100%;
+    align-items: center;
+}
+
+/*Nosotros*/
+
+.nosotrosContainer{
+    width: 100%;
+    padding: 15rem 0rem 5rem 0rem;
+    background-image: url("../img/Hero_home_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nosotrosTitle{
+    padding: 2rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.nosotrosText{
+    padding: 0 10rem;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+
+/*Información*/
+
+.mainInfo{
+    padding-bottom: 5rem;
+    width: 100%;
+    background-color: #bcbdd8;
+}
+
+/*Box-Valores*/
+
+.tableContainer{
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tableValores{
+    padding: 2rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: whitesmoke;
+}
+
+.tableName{
+    padding-bottom: 1rem;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.tableTitle{
+    padding: 0.5rem;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+.tableText{
+    padding: 0.5rem;
+    font-family: EBGaramond;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+/*Box-Horario*/
+
+.boxContainer{
+    padding: 2rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.boxHorario{
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.boxName{
+    padding-bottom: 1rem;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.boxTitle{
+    padding: 0.7rem;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+.boxText{
+    padding: 0.5rem;
+    font-family: EBGaramond;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+
+/*Contacto*/
+
+.mainForm{
+    width: 100%;
+    background-image: url("../img/Hero_home_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divForm{
+    padding: 0.2rem;
+    align-items: center;
+}
+
+.formTitle{
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+/*Footer*/
+
+.footer{
+    width: 100%;
+    height: 10rem;
+    background-color:whitesmoke;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.socialItem{
+    display: inline-block;
+}
+
+.footerDiv{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footerTitle{
+    padding-top: 2.5rem;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+ /*Media Queries*/
+
+ @media screen and (max-width: 768px) {
+
+    .multimediaContainer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        justify-content: center;
+     }
+
+/*Información*/
+
+.mainInfo{
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #bcbdd8;
+}
+
+/*Box-Valores*/
+
+
+.tableValores{
+    padding: 1rem;
+}
+
+.tableName{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.tableTitle{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.tableText{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+/*Box-Horario*/
+
+.boxContainer{
+    padding: 1rem;
+}
+
+.boxHorario{
+    padding: 1rem;
+}
+
+.boxName{
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.boxTitle{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.boxText{
+    padding: 0.5rem;
+    font-size: 0.5rem;
+}
+ }
+
+
+ @media screen and (max-width: 590px) {
+
+    .headerLogo{
+        margin-left: 0.5rem;
+        padding-top: 0.5rem;
+        width: 8rem;
+    }
+
+    .mainText{
+        padding: 0 5rem;
+        font-size: 1.2rem;
+}
+
+/*Nosotros*/
+
+.nosotrosContainer{
+    padding: 15rem 0rem 5rem 0rem;
+}
+
+.nosotrosTitle{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+.nosotrosText{
+    padding: 0 5rem;
+    font-size: 1rem;
+}
+
+    #grilla{
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 2rem;
+    } 
+
+
+ }
+
+ @media screen and (max-width: 425px) {
+
+    .headerList{
+        width: 100%;
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        background-color: black;
+        width: 100%;
+    }
+
+    .headerItem{
+        margin: 0.5rem 0.5rem;
+        font-size: 1rem; 
+        padding-top: 0.1rem;
+ }
+
+    #grilla{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8 1fr);
+        column-gap: 0.7rem;
+        row-gap: 0.7rem;
+    } 
+
+}
+
+
+ 
+
