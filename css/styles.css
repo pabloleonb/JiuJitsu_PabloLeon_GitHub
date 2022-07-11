@@ -81,13 +81,6 @@
     margin-bottom: 4rem;
 }
 
-.multimedia{
-    padding-left: 3rem;
-    width: 560px;
-    height: 325px;
-}
-
-
 /*Galeria*/
 
 .mainGal{
@@ -347,13 +340,21 @@
         width: 100%;
     }
 
-    .multimediaContainer{
-        display: flex;
-        flex-direction: column;
+    .mainContainer{
         margin-bottom: 2rem;
+    }
+    
+    .mainText{
+        padding: 0 5rem;
+        font-size: 1.2rem;
+}
+
+    .multimediaContainer{
+        margin-bottom: 1rem;
         justify-content: center;
      }
 
+    
 /*Información*/
 
 .mainInfo{
@@ -418,11 +419,6 @@
 
  @media screen and (max-width: 590px) {
 
-
-    .mainText{
-        padding: 0 5rem;
-        font-size: 1.2rem;
-}
 
 .mainContainer{
     padding-top: 8rem;
