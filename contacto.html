@@ -45,47 +45,65 @@
           </nav>
   </header>
     <main class="mainForm">
-        <form class="form">
-            <div class="divForm">
-                <label class="formTitle" for="">Ingresar nombre</label>
-                <input type="text" name="" id="" placeholder="Escribe nombre y apellido">
+        <form action="" method="get" enctype="multipart/form-data">
+            <div class="row mb-3">
+              <label class="formTitle" for="inputEmail3" class="col-sm-2 col-form-label">Correo</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
             </div>
-            <div class="divForm">
-                <label class="formTitle" for="">Contraseña</label>
-                <input type="password"  name="" id="">
+            <div class="row mb-3">
+              <label class="formTitle" for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
             </div>
-            <div class="divForm">
-                <div>
-                    <input type="radio" name="sexo" id="mujer">
-                    <labe class="formTitle"l class="formTitle" for="mujer">Mujer</label>
-                </div>
-                <div>
-                    <input type="radio" name="sexo" id="Hombre">
-                    <label class="formTitle" for="hombre">Hombre</label>
-                </div>
-                <div>
-                    <input type="radio" name="sexo" id="No-binario">
-                    <label class="formTitle" for="no-binario">No-binario</label>
-                </div>
-            </div>
-            <div class="divForm">
-                <label class="formTitle" for="">Recibir newsletter</label>
-                <input type="checkbox"  name="aceptar" id="">
-            </div>
-            <div class="divForm">
-                <label class="formTitle" for="">Talla</label>
-                <select name="tallas" id="">
-                    <option value="s">Small</option>
-                    <option value="m">Medium</option>
-                    <option value="l">Large</option>
-                    <option value="xl">Extra Large</option>
+            <fieldset class="row mb-3">
+                <legend class="formTitle" class="col-form-label col-sm-2 pt-0"></legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="formTitle" class="form-check-label" for="gridRadios1">
+                      Hombre
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="formTitle" class="form-check-label" for="gridRadios2">
+                      Mujer
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="formTitle" class="form-check-label" for="gridRadios2">
+                      No-binario
+                    </label>
+                  </div>
+            <div class="col-sm-3">
+                <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+                <select class="form-select" id="specificSizeSelect">
+                  <option selected>Talla</option>
+                  <option value="1">Small</option>
+                  <option value="2">Medium</option>
+                  <option value="3">Large</option>
+                  <option value="3">Extra large</option>
                 </select>
+              </div>
+              </div>
+            </fieldset>
+            <div class="row mb-3">
+              <div class="col-sm-10>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="formTitle" class="form-check-label" for="gridCheck1">
+                    Recibir Newsletter
+                  </label>
+                </div>
+              </div>
             </div>
-            <div class="divForm">
-                <input type="button" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </div>
-        </form>
+            <button class="button" type="submit" class="btn btn-primary">Enviar</button>
+            <button class="button" type="reset" class="btn btn-primary">Limpiar</button>
+          </form>
     </main>
     <footer class="footer">
         <nav class="footerNav">
