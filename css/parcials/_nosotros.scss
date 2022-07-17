@@ -1,0 +1,28 @@
+/*Nosotros*/
+
+.nosotrosContainer{
+    width: 100%;
+    padding: 15rem 0rem 5rem 0rem;
+    background-image: url("../img/Hero_home_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nosotrosTitle{
+    padding: 2rem;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.nosotrosText{
+    padding: 0 10rem;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: justify;
+}

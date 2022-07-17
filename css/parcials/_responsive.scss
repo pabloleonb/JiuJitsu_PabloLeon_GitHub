@@ -1,0 +1,164 @@
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        background-color: rgb(41, 41, 41);
+        width: 100%;
+    }
+
+    .headerLogo{
+        margin-left: 0.5rem;
+        padding-top: 0.5rem;
+        width: 8rem;
+    }
+
+    .headerItem{
+        display: inline-flex;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .headerList{
+        background-color: rgb(41, 41, 41);
+        width: 100%;
+    }
+
+    .mainContainer{
+        margin-bottom: 2rem;
+    }
+    
+    .mainText{
+        padding: 0 5rem;
+        font-size: 1.2rem;
+}
+
+    .multimediaContainer{
+        margin-bottom: 1rem;
+        justify-content: center;
+     }
+
+/*Galería*/
+
+#grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0.7rem;
+    row-gap: 0.7rem; 
+} 
+
+/*Información*/
+
+.mainInfo{
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #bcbdd8;
+}
+
+/*Nosotros*/
+
+.nosotrosContainer{
+    padding: 17rem 0rem 1rem 0rem;
+}
+
+/*Box-Valores*/
+
+.tableValores{
+    padding: 1rem;
+}
+
+.tableName{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.tableTitle{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.tableText{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/*Box-Horario*/
+
+.boxContainer{
+    padding: 1rem;
+}
+
+.boxHorario{
+    padding: 1rem;
+}
+
+.boxName{
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.boxTitle{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.boxText{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+ }
+
+
+@media screen and (max-width: 590px) {
+
+.mainContainer{
+    padding-top: 8rem;
+}
+
+.mainText{
+    padding: 0 5rem;
+}
+
+/*Nosotros*/
+
+.nosotrosContainer{
+    padding: 18rem 0rem 1rem 0rem;
+}
+
+.nosotrosTitle{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+.nosotrosText{
+    padding: 0 5rem;
+    font-size: 1rem;
+}
+
+/*informacion*/
+
+.tableContainer{
+        padding-top: 20rem;
+}
+}
+
+ @media screen and (max-width: 425px) {
+
+.headerItem{
+        margin: 0.5rem 0.5rem;
+        font-size: 1rem; 
+        padding-top: 0.1rem;
+ }
+ 
+ .mainText{
+    padding: 0 1rem;
+}
+
+    #grilla{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 0.7rem;
+        row-gap: 0.7rem;
+    } 
+}

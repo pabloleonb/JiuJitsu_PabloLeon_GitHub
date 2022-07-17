@@ -1,0 +1,32 @@
+/*Main Index*/
+
+.mainIndex{
+    width: 100%;
+    padding: 18rem 0rem 0rem 0rem;
+    background-image: url("../img/Hero_home_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .mainContainer{
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    .mainText{
+        padding: 0 10rem;
+        font-family: Yanone Kaffeesatz;
+        font-weight: 200;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        text-align: justify;
+    }
+    
+    .multimediaContainer{
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+}
+

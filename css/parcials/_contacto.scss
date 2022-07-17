@@ -1,0 +1,40 @@
+/*Contacto*/
+
+.mainForm{
+    width: 100%;
+    padding: 18rem 10rem 10rem 5rem;
+    background-image: url("../img/Hero_home_web.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .formTitle{
+        font-family: Yanone Kaffeesatz;
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: whitesmoke;
+    }
+
+    .buttonSend{
+        width: 5rem;
+        height: 2rem;
+        border-style: none;
+        background-color:whitesmoke;
+        font-family: Yanone Kaffeesatz;
+        font-weight: 200;
+        font-size: 1.2rem;
+        color: black;
+    }
+    
+
+    .buttonReset{
+        width: 5rem;
+        height: 2rem;
+        border-style: none;
+        background-color: lightcoral;
+        font-family: Yanone Kaffeesatz;
+        font-weight: 200;
+        font-size: 1.2rem;
+        color: black;
+    }
+    
+}

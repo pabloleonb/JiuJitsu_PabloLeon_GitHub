@@ -1,0 +1,412 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.header {
+  position: fixed;
+  width: 100%;
+  height: 12rem;
+  background-color: rgb(41, 41, 41);
+  z-index: 100;
+}
+.header .headerLogo {
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  width: 10rem;
+}
+
+.headerList {
+  text-align: end;
+  margin-right: 1rem;
+}
+.headerList .headerItem {
+  display: inline-block;
+  margin: 3rem 0.5rem;
+  padding-top: 2rem;
+  font-family: Bebas Neue;
+  font-size: 1em;
+  transition: font-size 0.5s;
+}
+.headerList .headerItem:hover {
+  font-size: 1.1rem;
+}
+.headerList .headerLink {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/*Main Index*/
+.mainIndex {
+  width: 100%;
+  padding: 18rem 0rem 0rem 0rem;
+  background-image: url("../img/Hero_home_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainIndex .mainContainer {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.mainIndex .mainText {
+  padding: 0 10rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: justify;
+}
+.mainIndex .multimediaContainer {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  background-size: cover;
+}
+.footer .footerTitle {
+  padding-top: 2.5rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.footer .footerDiv {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.footer .footerDiv .socialItem {
+  display: inline-block;
+}
+
+/*Contacto*/
+.mainForm {
+  width: 100%;
+  padding: 18rem 10rem 10rem 5rem;
+  background-image: url("../img/Hero_home_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainForm .formTitle {
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+.mainForm .buttonSend {
+  width: 5rem;
+  height: 2rem;
+  border-style: none;
+  background-color: whitesmoke;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: black;
+}
+.mainForm .buttonReset {
+  width: 5rem;
+  height: 2rem;
+  border-style: none;
+  background-color: lightcoral;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/*Galeria*/
+.mainGal {
+  width: 100%;
+  padding-top: 17rem;
+  padding-bottom: 6rem;
+  background-color: #bcbdd8;
+}
+
+#grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  -moz-column-gap: 0.7rem;
+       column-gap: 0.7rem;
+  row-gap: 0.7rem;
+}
+
+.galItem {
+  width: 100%;
+  align-items: center;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* animation scale-up-center */
+@-webkit-keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/*Nosotros*/
+.nosotrosContainer {
+  width: 100%;
+  padding: 15rem 0rem 5rem 0rem;
+  background-image: url("../img/Hero_home_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nosotrosTitle {
+  padding: 2rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.nosotrosText {
+  padding: 0 10rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  text-align: justify;
+}
+
+/*Información*/
+.mainInfo {
+  padding-bottom: 5rem;
+  width: 100%;
+  background-color: #bcbdd8;
+}
+
+/*Box-Valores*/
+.tableContainer {
+  padding-top: 16rem;
+  padding-bottom: 4rem;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.tableContainer .tableValores {
+  padding: 2rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: whitesmoke;
+}
+.tableContainer .tableValores .tableName {
+  padding-bottom: 1rem;
+  font-family: Bebas Neue;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.tableContainer .tableValores .tableTitle {
+  padding: 0.5rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.tableContainer .tableValores .tableText {
+  padding: 0.5rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+
+/*Box-Horario*/
+.boxContainer {
+  padding: 2rem;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.boxContainer .boxHorario {
+  padding: 2rem;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.boxContainer .boxHorario .boxName {
+  padding-bottom: 1rem;
+  font-family: Bebas Neue;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.boxContainer .boxHorario .boxTitle {
+  padding: 0.7rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.boxContainer .boxHorario .boxText {
+  padding: 0.5rem;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+  }
+  .headerLogo {
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+    width: 8rem;
+  }
+  .headerItem {
+    display: inline-flex;
+    margin: 0.5rem 0.5rem;
+  }
+  .headerList {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+  }
+  .mainContainer {
+    margin-bottom: 2rem;
+  }
+  .mainText {
+    padding: 0 5rem;
+    font-size: 1.2rem;
+  }
+  .multimediaContainer {
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  /*Galería*/
+  #grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    -moz-column-gap: 0.7rem;
+         column-gap: 0.7rem;
+    row-gap: 0.7rem;
+  }
+  /*Información*/
+  .mainInfo {
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #bcbdd8;
+  }
+  /*Nosotros*/
+  .nosotrosContainer {
+    padding: 17rem 0rem 1rem 0rem;
+  }
+  /*Box-Valores*/
+  .tableValores {
+    padding: 1rem;
+  }
+  .tableName {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .tableTitle {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .tableText {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  /*Box-Horario*/
+  .boxContainer {
+    padding: 1rem;
+  }
+  .boxHorario {
+    padding: 1rem;
+  }
+  .boxName {
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .boxTitle {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .boxText {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .mainContainer {
+    padding-top: 8rem;
+  }
+  .mainText {
+    padding: 0 5rem;
+  }
+  /*Nosotros*/
+  .nosotrosContainer {
+    padding: 18rem 0rem 1rem 0rem;
+  }
+  .nosotrosTitle {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .nosotrosText {
+    padding: 0 5rem;
+    font-size: 1rem;
+  }
+  /*informacion*/
+  .tableContainer {
+    padding-top: 20rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .headerItem {
+    margin: 0.5rem 0.5rem;
+    font-size: 1rem;
+    padding-top: 0.1rem;
+  }
+  .mainText {
+    padding: 0 1rem;
+  }
+  #grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -moz-column-gap: 0.7rem;
+         column-gap: 0.7rem;
+    row-gap: 0.7rem;
+  }
+}/*# sourceMappingURL=main.css.map */
