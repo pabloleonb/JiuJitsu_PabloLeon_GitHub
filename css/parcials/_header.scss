@@ -4,7 +4,7 @@
     position: fixed;
     width: 100%;
     height: 12rem;
-    background-color: rgb(41, 41, 41);
+    background-color: $negro;
     z-index: 100;
     .headerLogo{
         margin-left: 1rem;
@@ -30,7 +30,7 @@
     }
     .headerLink{
         text-decoration: none;
-        color: whitesmoke;
+        color:$blanco;
     }
 }
 

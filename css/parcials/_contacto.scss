@@ -11,18 +11,18 @@
         font-family: Yanone Kaffeesatz;
         font-weight: 400;
         font-size: 1.2rem;
-        color: whitesmoke;
+        color: $blanco;
     }
 
     .buttonSend{
         width: 5rem;
         height: 2rem;
         border-style: none;
-        background-color:whitesmoke;
+        background-color: $blanco;
         font-family: Yanone Kaffeesatz;
         font-weight: 200;
         font-size: 1.2rem;
-        color: black;
+        color: $negro;
     }
     
 
@@ -34,7 +34,7 @@
         font-family: Yanone Kaffeesatz;
         font-weight: 200;
         font-size: 1.2rem;
-        color: black;
+        color: $negro;
     }
     
 }

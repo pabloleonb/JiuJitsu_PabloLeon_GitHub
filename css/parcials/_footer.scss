@@ -1,9 +1,13 @@
 /*Footer*/
 
+@mixin sizes ($height, $width) {
+    height: $height;
+    width: $width;  
+}
+
 .footer{
-    width: 100%;
-    height: 10rem;
-    background-color:whitesmoke;
+    @include sizes(10rem, 100%);
+    background-color:$blanco;
     box-sizing: border-box;
     background-size: cover;
     .footerTitle{
