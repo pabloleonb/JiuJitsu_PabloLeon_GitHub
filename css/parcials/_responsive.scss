@@ -57,7 +57,7 @@
 /*Nosotros*/
 
 .nosotrosContainer{
-    padding: 17rem 0rem 1rem 0rem;
+    padding: 14rem 0rem 1rem 0rem;
 }
 
 /*Box-Valores*/
@@ -68,17 +68,17 @@
 
 .tableName{
     padding-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .tableTitle{
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .tableText{
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /*Box-Horario*/
@@ -93,17 +93,17 @@
 
 .boxName{
     padding-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .boxTitle{
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .boxText{
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
  }
 
@@ -111,7 +111,7 @@
 @media screen and (max-width: 590px) {
 
 .mainContainer{
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 .mainText{
@@ -121,7 +121,7 @@
 /*Nosotros*/
 
 .nosotrosContainer{
-    padding: 18rem 0rem 1rem 0rem;
+    padding: 10rem 0rem 1rem 0rem;
 }
 
 .nosotrosTitle{
@@ -142,17 +142,28 @@
 }
 }
 
- @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
+
+.headerLogo{
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    width: 5rem;
+    }
 
 .headerItem{
         margin: 0.5rem 0.5rem;
         font-size: 1rem; 
         padding-top: 0.1rem;
  }
- 
- .mainText{
-    padding: 0 1rem;
+
+ .mainIndex{
+    padding: 10rem 0rem 0rem 0rem;
+ }
+
+.mainContainer{
+    padding-top: 5rem;
 }
+
 
     #grilla{
         display: grid;

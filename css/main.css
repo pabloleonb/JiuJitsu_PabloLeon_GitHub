@@ -10,14 +10,14 @@
 .header {
   position: fixed;
   width: 100%;
-  height: 12rem;
+  height: 10rem;
   background-color: #292929;
   z-index: 100;
 }
 .header .headerLogo {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   padding-top: 0.5rem;
-  width: 10rem;
+  width: 8rem;
 }
 
 .headerList {
@@ -26,7 +26,7 @@
 }
 .headerList .headerItem {
   display: inline-block;
-  margin: 3rem 0.5rem;
+  margin: 0.5rem 0.5rem;
   padding-top: 2rem;
   font-family: Bebas Neue;
   font-size: 1em;
@@ -43,7 +43,7 @@
 /*Main Index*/
 .mainIndex {
   width: 100%;
-  padding: 18rem 0rem 0rem 0rem;
+  padding: 14rem 0rem 0rem 0rem;
   background-image: url("../img/Hero_home_web.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@
   margin-bottom: 5rem;
 }
 .mainIndex .mainText {
-  padding: 0 10rem;
+  padding: 2rem;
   font-family: Yanone Kaffeesatz;
   font-weight: 200;
   font-size: 1.5rem;
@@ -330,7 +330,7 @@
   }
   /*Nosotros*/
   .nosotrosContainer {
-    padding: 17rem 0rem 1rem 0rem;
+    padding: 14rem 0rem 1rem 0rem;
   }
   /*Box-Valores*/
   .tableValores {
@@ -338,15 +338,15 @@
   }
   .tableName {
     padding-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .tableTitle {
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .tableText {
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   /*Box-Horario*/
   .boxContainer {
@@ -357,27 +357,27 @@
   }
   .boxName {
     padding-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .boxTitle {
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .boxText {
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 590px) {
   .mainContainer {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
   .mainText {
     padding: 0 5rem;
   }
   /*Nosotros*/
   .nosotrosContainer {
-    padding: 18rem 0rem 1rem 0rem;
+    padding: 10rem 0rem 1rem 0rem;
   }
   .nosotrosTitle {
     padding: 1.5rem;
@@ -393,13 +393,21 @@
   }
 }
 @media screen and (max-width: 425px) {
+  .headerLogo {
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    width: 5rem;
+  }
   .headerItem {
     margin: 0.5rem 0.5rem;
     font-size: 1rem;
     padding-top: 0.1rem;
   }
-  .mainText {
-    padding: 0 1rem;
+  .mainIndex {
+    padding: 10rem 0rem 0rem 0rem;
+  }
+  .mainContainer {
+    padding-top: 5rem;
   }
   #grilla {
     display: grid;
